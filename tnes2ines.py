@@ -9,7 +9,7 @@ group = parser.add_mutually_exclusive_group()
 
 parser.add_argument("Input", help="TNES Rom")
 group.add_argument("-i", "--romInfo", help="Show TNES rom info", action="store_true")
-group.add_argument("-x", "--extract", help="Extract PRG and CHR roms(or FDS bios, and FDS .qd, if input is a FDS game) from TNES input", action="store_true")
+group.add_argument("-x", "--extract", help="Extract PRG and CHR roms (or FDS bios and FDS .qd, if input is a FDS game) from TNES input", action="store_true")
 group.add_argument("-c", "--convert", help="Convert TNES rom to INES", action="store_true")
 
 args = parser.parse_args()

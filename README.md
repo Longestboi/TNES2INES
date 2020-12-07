@@ -20,7 +20,7 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   -i, --romInfo  Show TNES rom info
-  -x, --extract  Extract PRG and CHR roms(or FDS bios, and FDS .qd, if input
+  -x, --extract  Extract PRG and CHR roms (or FDS bios and FDS .qd, if input
                  is a FDS game) from TNES input
   -c, --convert  Convert TNES rom to INES
 ```
